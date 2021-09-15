@@ -603,6 +603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 42984958}
+  - component: {fileID: 42984959}
   m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
@@ -680,6 +681,20 @@ Transform:
   m_Father: {fileID: 245953455}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &42984959
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42984957}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &45986136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3163,6 +3178,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 274297695}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &274297697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013284595078, guid: 4645e46905e32194a84dd78abec737ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 274297695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &274297698
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274297697}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f35f0979c18b1c44f9a6106691d09d80, type: 3}
 --- !u!1001 &275443784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6771,6 +6806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 550463518}
+  - component: {fileID: 550463519}
   m_Layer: 0
   m_Name: Decorative
   m_TagString: Untagged
@@ -6815,6 +6851,20 @@ Transform:
   m_Father: {fileID: 1195835111}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &550463519
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550463517}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &560284892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13934,6 +13984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024091679}
   - component: {fileID: 1024091680}
+  - component: {fileID: 1024091681}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -14002,6 +14053,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &1024091681
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024091678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1026428016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16345,6 +16410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1216338066}
+  - component: {fileID: 1216338067}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -16373,6 +16439,20 @@ Transform:
   m_Father: {fileID: 1195835111}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1216338067
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216338065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1217199719
 GameObject:
   m_ObjectHideFlags: 0
@@ -16739,6 +16819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1257857144}
+  - component: {fileID: 1257857145}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -16765,6 +16846,20 @@ Transform:
   m_Father: {fileID: 1195835111}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1257857145
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257857143}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1278667419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21213,6 +21308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1610623102}
+  - component: {fileID: 1610623103}
   m_Layer: 0
   m_Name: Stairs
   m_TagString: Untagged
@@ -21235,6 +21331,20 @@ Transform:
   m_Father: {fileID: 245953455}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1610623103
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610623101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1611038147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23436,6 +23546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1771285077}
+  - component: {fileID: 1771285078}
   m_Layer: 0
   m_Name: Decorative
   m_TagString: Untagged
@@ -23510,6 +23621,20 @@ Transform:
   m_Father: {fileID: 245953455}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1771285078
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771285076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1781154178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24383,6 +24508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1850871190}
+  - component: {fileID: 1850871191}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -24469,6 +24595,20 @@ Transform:
   m_Father: {fileID: 1195835111}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1850871191
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850871189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1851501098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26454,6 +26594,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2002590542}
+  - component: {fileID: 2002590543}
   m_Layer: 0
   m_Name: Blocks
   m_TagString: Untagged
@@ -26485,6 +26626,20 @@ Transform:
   m_Father: {fileID: 1195835111}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2002590543
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002590541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &2004001720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26557,6 +26712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2005094601}
+  - component: {fileID: 2005094602}
   m_Layer: 0
   m_Name: Gates Doors
   m_TagString: Untagged
@@ -26584,6 +26740,20 @@ Transform:
   m_Father: {fileID: 245953455}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2005094602
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005094600}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &2006677232
 PrefabInstance:
   m_ObjectHideFlags: 0
