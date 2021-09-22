@@ -6797,19 +6797,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answers:
   - 7
-  - 7
-  - abcd
-  - fjnren
+  - 6944
+  - 56
+  - 83
   inputField:
   - {fileID: 1363097714}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1363097714}
+  - {fileID: 1363097714}
+  - {fileID: 1363097714}
   doors:
   - {fileID: 2052766221}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1600407272}
+  - {fileID: 857741754}
+  - {fileID: 949708842}
+  DoorImg:
+  - {fileID: 749299118}
+  - {fileID: 749299118}
+  - {fileID: 749299118}
+  - {fileID: 749299118}
 --- !u!4 &315959779
 Transform:
   m_ObjectHideFlags: 0
@@ -7343,7 +7348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012554148376, guid: 5aba6795bee8c844f8b9fcc7a5c32864, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000012838589414, guid: 5aba6795bee8c844f8b9fcc7a5c32864, type: 3}
       propertyPath: m_RootOrder
@@ -18740,7 +18745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012593176958, guid: ce95550abf8148e449f64c4ec0b439e9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000010649178834, guid: ce95550abf8148e449f64c4ec0b439e9, type: 3}
       propertyPath: m_RootOrder
@@ -19584,6 +19589,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 857381886}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &857741754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012593176958, guid: ce95550abf8148e449f64c4ec0b439e9,
+    type: 3}
+  m_PrefabInstance: {fileID: 831639526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &857741755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857741754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4508511855aa24a915f732873d6d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Door1Img: {fileID: 749299118}
+--- !u!65 &857741756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857741754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.000001, y: 14.538469, z: 6.8973107}
+  m_Center: {x: 6.375373e-15, y: 7.269231, z: 2.4486265}
 --- !u!1001 &864760562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21936,6 +21973,32 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8cbc83db2e1668a4ba6eed176660d7f9, type: 3}
+--- !u!114 &949708844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949708842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4508511855aa24a915f732873d6d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Door1Img: {fileID: 749299118}
+--- !u!65 &949708845
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949708842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.288446, y: 6.324608, z: 23.73028}
+  m_Center: {x: -1.2442226, y: 3.1622791, z: -3.8651457}
 --- !u!1 &950433755
 GameObject:
   m_ObjectHideFlags: 0
@@ -22556,6 +22619,39 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 315959778}
         m_MethodName: OnClickClue1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 315959778}
+        m_MethodName: OnClickClue2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 315959778}
+        m_MethodName: OnClickClue3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 315959778}
+        m_MethodName: OnClickClue4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -37666,6 +37762,32 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 94ddb31aff0f2944ca16797a041d80fd, type: 3}
+--- !u!114 &1600407274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600407272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4508511855aa24a915f732873d6d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Door1Img: {fileID: 749299118}
+--- !u!65 &1600407275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600407272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.000004, y: 18.436752, z: 9.194126}
+  m_Center: {x: 0.00000047683716, y: 9.218372, z: 3.5970268}
 --- !u!1001 &1601984534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46443,6 +46565,11 @@ PrefabInstance:
     - target: {fileID: 4000010834494286, guid: f062fa5660b145642af10dc6ca5cd57c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000011587495660, guid: f062fa5660b145642af10dc6ca5cd57c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f062fa5660b145642af10dc6ca5cd57c, type: 3}
