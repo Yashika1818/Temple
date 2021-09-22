@@ -1,26 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class textInput : MonoBehaviour
 {
-    private string input;
+   
+  public string theName;
+   public GameObject inputField;
+  // public GameObject textDisplay;
 
-    // Start is called before the first frame update
-    void Start()
+    public void StoreName()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void ReadStringInput(string s)
-    {
-        input = s;
-        Debug.Log(input);
+       theName = inputField.GetComponent<Text>().text;
+        //textDisplay.GetComponent<Text>().text = theName;
     }
 }
