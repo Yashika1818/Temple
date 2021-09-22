@@ -22555,7 +22555,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 315959778}
-        m_MethodName: StoreName
+        m_MethodName: OnClickClue1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
